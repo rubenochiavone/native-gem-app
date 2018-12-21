@@ -1,6 +1,6 @@
 # Native gem app
 
-Simple app to interface with a native gem.
+Sample app to interface with a native gem.
 
 ## Install dependencies
 
