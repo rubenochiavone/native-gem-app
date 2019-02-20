@@ -1,6 +1,6 @@
 # Native gem app
 
-Sample app to interface with a native gem.
+Sample app to interface with a [native gem](https://gitlab.com/rubenochiavone/native-gem).
 
 ## Install dependencies
 
