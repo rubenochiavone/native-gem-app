@@ -61,5 +61,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Fix for CVE-2019-5477
+gem 'nokogiri', '>= 1.10.4'
+
 # Native gem
 gem 'native', git: 'https://gitlab.com/ruben.ochiavone/native-gem.git'
