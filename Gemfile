@@ -5,6 +5,8 @@ ruby '2.3.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+gem 'railties', '>= 5.2.2.1' # mitigate CVE-2019-5420
+gem 'actionview', '>= 5.2.2.1' # mitigate CVE-2019-5418 and CVE-2019-5419
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
